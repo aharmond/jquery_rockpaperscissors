@@ -60,6 +60,7 @@ $(document).ready( function() {
     $('#wins').text('Wins: 0')
     $('#losses').text('Losses: 0')
     $('#ties').text('Ties: 0')
+    $('#result').text('')
 
     changeScore(result);
   })
